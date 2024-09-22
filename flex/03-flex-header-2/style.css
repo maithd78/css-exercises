@@ -46,3 +46,33 @@ a {
 ul {
   list-style-type: none;
 }
+
+.header {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  /* align-items: center; */
+  /* border: 0px; */
+  padding: 8px;
+}
+
+.left-align, .right-align {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+/* .right-align {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+} */
+
